@@ -2,7 +2,7 @@ package Dayy2;
 
 public class Dayy2 {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         
         String nama = "fatin";
         int umur = 18;
