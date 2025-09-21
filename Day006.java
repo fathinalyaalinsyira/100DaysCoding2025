@@ -2,7 +2,7 @@ package Day6;
 
 public class main {
     public static void main(String[] args) {
-        float berat = 45.0f;
+        float berat = 45.0f; 
         double tinggi = 154.0;
         
         System.out.println(berat);
