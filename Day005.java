@@ -5,7 +5,7 @@ public class main {
         byte berat = 45;
         short tinggi = 154;
         long tahun = 2006;
-        int umur = 18;
+        int umur = 18; 
         
         System.out.println("berat badan saya"+ berat);
         System.out.println("tinggi badan saya"+ tinggi);
