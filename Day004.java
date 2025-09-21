@@ -4,7 +4,7 @@ public class main {
     public static void main(String[] args) {
         
         System.out.println("\"Hello World\"");
-        System.out.println("Nama:\tfatin");
+        System.out.println("Nama:\tfatin"); 
         System.out.println("Umur:\t18tahun");
         System.out.println("Jenis: \'P\'");
         System.out.println("NIM D0225020\\teknik\\Informatika");
