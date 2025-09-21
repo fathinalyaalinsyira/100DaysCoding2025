@@ -5,7 +5,7 @@ public class main {
         char nilai = 'A';
         boolean lulus = true;
         
-        System.out.println("nilai:"+ nilai);
+        System.out.println("nilai:"+ nilai); 
         System.out.println("lulus:"+ lulus);
         
         //Penjelasan mengenai tipe data char dan boolean
