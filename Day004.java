@@ -9,7 +9,7 @@ public class main {
         System.out.println("Jenis: \'P\'");
         System.out.println("NIM D0225020\\teknik\\Informatika");
         System.out.println("Saya adalah mahasiswa\nUniversitas Sulawesi Barat");
-        System.out.println("Terima \bkasih");
+        System.out.println("Terima \bkasih"); 
         
        // \n = new line (baris baru) digunakan untuk baris baru
        // \t = tab (indentasi) digunakan untuk membuat jarak atau spasi tabulasi
