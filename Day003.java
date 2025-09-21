@@ -4,7 +4,7 @@ public class Day3 {
     
     public static void main(String[] args) {
         System.out.println("fathin al'ya al'insyira");
-        //2 jenis komentar yaitu:
+        //2 jenis komentar yaitu: 
         /*Komentar satu baris dan
          * Komentar multi-baris
          */
