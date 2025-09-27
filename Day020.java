@@ -14,11 +14,11 @@ public class Main {
         //cara 2
         int b = 123;
         String str1 = b + "" ;
-        System.out.println("hasil2= " +str);
+        System.out.println("hasil2= " +str1);
         
         //cara 3
         double c = 1.23;
         String str2 = Double.toString(c);
-        System.out.println("hasil3= " +str1);
+        System.out.println("hasil3= " +str2);
     }
 }
