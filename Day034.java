@@ -22,7 +22,7 @@ public class Main {
 
         System.out.println("nilai akhir a = " + a);
 
-        boolean hasilAkhir = (a % 2 == 0) && ((a / b > c) || (a - b <= 10));
+        boolean hasilAkhir = (a % 2 == 0 && a / b > c || a - b <= 10);
 
         System.out.println("hasil logika = " + hasilAkhir);
 
