@@ -21,19 +21,19 @@ public class Main {
             System.out.println("\n===== Spesifikasi Kendaraan =====");
             if (merk == 1) {
                 System.out.println("1. Jenis : Mobil" + "\n2. Merk & Tipe : Toyota Avanza" + "\n3. Mesin : 1500 cc");
-            } else if (merk ==2) {
+            } else if (merk == 2) {
                 System.out.println("1. Jenis : Mobil" + "\n2. Merk & Tipe : Honda Brio" + "\n3. Mesin : 1200 cc");
             } else {
                 System.out.println("pilihan tidak ada");
             }
-        } else if (merk ==2) {
+        } else if (merk == 2) {
             System.out.println("1. Yamaha NMAX" + "\n2. Honda Vario");
             System.out.print("Tentukan pilihan : ");
             merk = p.nextInt();
             System.out.println("\n====== Spesifikasi Kendaraan ======");
             if (merk == 1) {
                 System.out.println("1. Jenis : Motor" + "\n2. Merk & Tipe : Yamaha NMAX" + "\n3. Mesin : 155 cc");
-            } else if (merk ==2) {
+            } else if (merk == 2) {
                 System.out.println("1. Jenis : Motor" + "\n2. Merk & Tipe : Honda Vario" + "\n3. Mesin : 150 cc");
             } else {
                 System.out.println("pilihan tidak ada");
