@@ -12,9 +12,21 @@ public class Main37 {
         int angka = p.nextInt();
 
         if (angka % 2 == 0) {
-            System.out.println("GENAP");
+            System.out.println("======Menentukan Ganjil Genap======");
+            System.out.println("ANGKA GENAP");
         } else {
-            System.out.println("GANJIL");
+            System.out.println("ANGKA GANJIL");
+
+            if (angka % 3 == 0 && angka % 5 == 0) {
+                System.out.println("======Menentukan Kategori======");
+                System.out.println("MASTER CLASS");
+            } else if (angka % 3 == 0) {
+                System.out.println("PRIDE OF 3");
+            } else if (angka % 5 == 0) {
+                System.out.println("PRIDE OF 5");
+            } else {
+                System.out.println("ANGKA GANJIL BIASA");
+            }
         }
     }
 
