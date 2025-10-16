@@ -40,7 +40,7 @@ public class Main39 {
             }
 
         } else {
-            System.out.println("PILIHAN TIDAK VALID");
+            System.out.println("PILIHAN TIDAK ADA DI DAFTAR");
         }
     }
 
