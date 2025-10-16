@@ -18,22 +18,30 @@ public class Main39 {
         int pilih = p.nextInt();
         System.out.println("======PILIHAN ANDA======");
 
-        if (pilih == 1) {
-            System.out.println("CAPPUCINO");
-            System.out.println("Harga: 15.000");
-        } else if (pilih == 2) {
-            System.out.println("CHOCO CREAM");
-            System.out.println("Harga: 16.000");
-        } else if (pilih == 3) {
-            System.out.println("CHOCOLATOS");
-            System.out.println("Harga: 10.000");
-        } else if (pilih == 4) {
-            System.out.println("CHOCO MILK");
-            System.out.println("Harga: 17.000");
+        if (pilih >= 1 && pilih <= 4) {
+            if (pilih == 1) {
+                System.out.println("Menu: CAPPUCINO");
+            } else if (pilih == 2) {
+                System.out.println("Menu: CHOCO CREAM");
+            } else if (pilih == 3) {
+                System.out.println("Menu: CHOCOLATOS");
+            } else {
+                System.out.println("Menu: CHOCO MILK");
+            }
+
+            if (pilih == 1) {
+                System.out.println("Harga: 15.000");
+            } else if (pilih == 2) {
+                System.out.println("Harga: 16.000");
+            } else if (pilih == 3) {
+                System.out.println("Harga: 10.000");
+            } else {
+                System.out.println("Harga: 17.000");
+            }
+
         } else {
             System.out.println("PILIHAN TIDAK VALID");
         }
-
     }
 
 }
