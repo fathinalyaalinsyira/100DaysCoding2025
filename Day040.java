@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Main40 {
 
-    public static void main(String[] args) {
-        Scanner p = new Scanner(System.in);
+Scanner p = new Scanner(System.in);
 
         //Membuat Kalukalor menggunakan if
         System.out.println("====== KALKULATOR ======");
@@ -36,16 +35,8 @@ public class Main40 {
             System.out.println("Hasil: " + (angka1 / angka2));
         } else if (pilih == 5) {
             System.out.println("Hasil: " + (angka1 % angka2));
-
-            if (angka2 != 0) {
-                System.out.println("Hasil: " + (angka1 / angka2));
-            } else {
-                System.out.println("Error: Tidak bisa dibagi dengan nol!");
-            }
         } else {
             System.out.println("Pilihan tidak valid!");
         }
-
-    }
-
+}
 }
