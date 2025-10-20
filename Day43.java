@@ -31,13 +31,15 @@ public class Main43 {
             }
 
             if (angka % 3 == 0 && angka % 5 == 0) {
-                habis = " dibagi 3 dan 5";
+                habis = "bisa dibagi 3 dan 5";
             } else if (angka % 3 == 0) {
-                habis = " dibagi 3";
+                habis = "bisa dibagi 3";
             } else if (angka % 5 == 0) {
-                habis = " dibagi 5";
+                habis = " bisa dibagi 5";
+            } else {
+                habis = "tidak bisa dibagi 3 dan 5";
             }
-            System.out.println(angka + " adalah angka " + satuan + jenis + " yang bisa" + habis);
+            System.out.println(angka + " adalah angka " + satuan + jenis + " yang " + habis);
         } else {
             System.out.println("jangan masukkan angka negatif atau 0(nol)");
         }
