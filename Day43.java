@@ -25,9 +25,9 @@ public class Main43 {
             }
 
             if (angka % 2 == 0) {
-                jenis = " ganjil";
-            } else {
                 jenis = " genap";
+            } else {
+                jenis = " ganjil";
             }
 
             if (angka % 3 == 0 && angka % 5 == 0) {
