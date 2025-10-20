@@ -25,9 +25,9 @@ public class Main43 {
             }
 
             if (angka % 2 == 0) {
-                jenis = " genap";
-            } else {
                 jenis = " ganjil";
+            } else {
+                jenis = " genap";
             }
 
             if (angka % 3 == 0 && angka % 5 == 0) {
@@ -37,10 +37,10 @@ public class Main43 {
             } else if (angka % 5 == 0) {
                 habis = " dibagi 5";
             }
+            System.out.println(angka + " adalah angka " + satuan + jenis + " yang bisa" + habis);
         } else {
-            System.out.println("tidak boleh dibagi 0");
+            System.out.println("jangan masukkan angka negatif atau 0(nol)");
         }
-        System.out.println(angka + " adalah angka " + satuan + jenis + " yang bisa" + habis);
     }
 
 }
