@@ -8,7 +8,7 @@ public class Main43 {
         Scanner p = new Scanner(System.in);
 
         //Program kelipatan 3, 5, 3, dan 5
-        System.out.println("Masukkan angka: ");
+        System.out.print("Masukkan angka: ");
         int angka = p.nextInt();
 
         String satuan = "";
