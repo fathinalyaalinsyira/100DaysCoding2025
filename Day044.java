@@ -11,7 +11,7 @@ public class Main44 {
         System.out.println("Masukkan nilai: ");
         int nilai = p.nextInt();
 
-        if (nilai >= 0 && nilai <= 100) {
+        if (nilai >= 0 && nilai <= 100) { 
             if (nilai >= 90) {
                 System.out.println("Nilai A");
                 System.out.println("WOW NILAI ANDA SANGAT KEREN");
