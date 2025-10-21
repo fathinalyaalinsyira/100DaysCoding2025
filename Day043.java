@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main43 {
 
     public static void main(String[] args) {
-        Scanner p = new Scanner(System.in);
+        Scanner p = new Scanner(System.in); 
 
         //Program kelipatan 3, 5, 3, dan 5
         System.out.print("Masukkan angka: ");
