@@ -23,7 +23,6 @@ public class Main45 {
                 break;
             default:
                 System.out.println("ini angka berikutnya");
-                break;
         }
     }
 
