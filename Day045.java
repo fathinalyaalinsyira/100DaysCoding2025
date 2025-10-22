@@ -8,18 +8,15 @@ public class Main45 {
         Scanner p = new Scanner(System.in);
 
         //Percabangan (switch-case)
-        System.out.print("Masukkan angka: ");
-        int angka = p.nextInt();
+        System.out.print("Masukkan apakah saya lulus: ");
+        boolean angka = p.nextBoolean();
 
-        switch (angka) {
-            case 1:
-                System.out.println("ini angka 1");
+        switch (Boolean.toString(angka)) {
+            case "true":
+                System.out.println("LULUS");
                 break;
-            case 2:
-                System.out.println("ini angka 2");
-                break;
-            case 3:
-                System.out.println("ini angka 3");
+            case "false":
+                System.out.println("TIDAK");
                 break;
             default:
                 System.out.println("ini angka berikutnya");
@@ -27,3 +24,4 @@ public class Main45 {
     }
 
 }
+
