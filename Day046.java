@@ -33,7 +33,6 @@ public class Main46 {
             default:
                 System.out.println("Tidak tersedia");
         }
-        System.out.println("PILIHAN TIDAK VALID");
     }
 
 }
