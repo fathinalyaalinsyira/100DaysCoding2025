@@ -29,8 +29,10 @@ public class Main47 {
                 break;
             case 6:
                 System.out.println("HARI SABTU");
+                break;
             case 7:
                 System.out.println("HARI MINGGU");
+                break;
             default:
                 System.out.println("HARI TIDAK ADA");
         }
