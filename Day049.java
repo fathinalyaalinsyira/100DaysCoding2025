@@ -17,7 +17,7 @@ public class Main49 {
 
         System.out.println("====== KETERANGAN ======");
         System.out.println("Nama: " + nama);
-        System.out.println("Nilai: " + umur);
+        System.out.println("Umur: " + umur);
         System.out.println("Status: " + status);
     }
 
