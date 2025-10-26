@@ -15,7 +15,7 @@ public class Main49 {
 
         String status = (umur >= 19) ? "DEWASA" : "BOCIL";
 
-        System.out.println("====== KETERANGAN MAHASISWA ======");
+        System.out.println("====== KETERANGAN ======");
         System.out.println("Nama: " + nama);
         System.out.println("Nilai: " + umur);
         System.out.println("Status: " + status);
