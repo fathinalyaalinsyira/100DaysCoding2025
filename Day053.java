@@ -1,6 +1,6 @@
 package Day53;
 
-import java.util.Scanner; 
+import java.util.Scanner;
 
 public class Main53 {
 
@@ -14,12 +14,12 @@ public class Main53 {
         int batas = p.nextInt();
 
         for (int i = angka; i < batas; i++) {
-            if (i == batas) {
+            System.out.println("Perulangan ke- " + i);
+            if (i == 5) {
+                System.out.println("Perulangan berhenti");
                 break;
             }
-            System.out.println("Perulangan ke- " + i);
         }
-        System.out.println("Perulangan berhenti");
     }
 
 }
