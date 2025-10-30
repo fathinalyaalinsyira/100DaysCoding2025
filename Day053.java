@@ -1,6 +1,6 @@
 package Day53;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Main53 {
 
