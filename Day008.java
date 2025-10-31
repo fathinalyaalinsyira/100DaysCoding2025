@@ -6,7 +6,7 @@ public class main {
         String umur = "19";
         String makan = "mie ayam";
         String asal = "Polewali";
-        String hobi = "makan";
+        String hobi = "makan"; 
         String fakultas = "teknik";
    
         System.out.println("hallo nama saya "+nama);
