@@ -8,18 +8,21 @@ public class Main54 {
         Scanner p = new Scanner(System.in);
         //Keyword continue
 
+        System.out.print("masukkan jumlah: ");
+        int a = p.nextInt();
+
         int total = 0;
         int jumlahvalid = 0;
         int jumlahnonvalid = 0;
         int nilaikecil = 100;
         int nilaibesar = 0;
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.print("masukkan nilai mahasiswa " + i + " : ");
+        for (int i = 1; i <= a; i++) {
+            System.out.print("masukkan nilai: ");
             int nilai = p.nextInt();
 
             if (nilai < 0 || nilai > 100) {
-                System.out.println("nilai tidak valid");
+                System.out.println("nilai tidak valid dan tidak dapat di proses");
                 jumlahnonvalid++;
                 continue;
             }
