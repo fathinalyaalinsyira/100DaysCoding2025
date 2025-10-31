@@ -36,19 +36,16 @@ public class Main54 {
                 nilaibesar = nilai;
             }
         }
+        double ratarata = (double) total / jumlahvalid;
+
         System.out.println("====================");
         System.out.println("total nilai valid: " + total);
         System.out.println("jumlah nilai valid: " + jumlahvalid);
         System.out.println("total nilai tidak valid: " + jumlahnonvalid);
+        System.out.println("nilai valid terkecil: " + nilaikecil);
+        System.out.println("nilai valid terbesar: " + nilaibesar);
+        System.out.println("rata-rata nilai valid: " + ratarata);
 
-        if (jumlahvalid > 0) {
-            double ratarata = (double) total / jumlahvalid;
-            System.out.println("nilai valid terkecil: " + nilaikecil);
-            System.out.println("nilai valid terbesar: " + nilaibesar);
-            System.out.println("rata-rata nilai valid: " + ratarata);
-        } else {
-            System.out.println("tidak ada nilai valid untuk dihitung");
-        }
     }
 
 }
