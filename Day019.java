@@ -2,7 +2,7 @@ package Day19;
 
 public class Main {
     public static void main(String[] args) {
-        
+         
         //Konverensi Manual/Paksa (Dari Tipe Data Besar Ke kecil)
         
         //type Cast
