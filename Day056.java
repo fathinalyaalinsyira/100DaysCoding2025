@@ -16,7 +16,8 @@ public class Main56 {
             System.out.println("====== BIODATA ======");
             System.out.println("Nama saya " + nama + " saya berasal dari " + asal);
             System.out.println("==============================");
-            System.out.print("Ulang ya / no: ");
+            //jika diketik selain "ya" maka program akan selesai
+            System.out.print("Ulang: ya / no: ");
             masuk = p.next();
             System.out.println("===============================");
             p.nextLine();
