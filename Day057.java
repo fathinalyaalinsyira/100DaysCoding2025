@@ -15,11 +15,10 @@ public class Main57 {
         int bawah = p.nextInt();
 
         for (int i = 0; i < bawah; i++) {
-            for (int j = 0; j <= samping; j++) {
+            for (int j = 0; j < samping; j++) {
                 System.out.print("o");
             }
-            System.out.println("o");
+            System.out.println();
         }
-        System.out.println("");
     }
 }
