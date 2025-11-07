@@ -12,7 +12,7 @@ public class Main61 {
         System.out.print("masukkan kelipatan M : ");
         int M = p.nextInt();
         
-        System.out.println("\nkelipatan : "+ M +" dari "+ N);
+        System.out.println("\nkelipatan : "+ M +" dari 1 sampai "+ N);
         for (int i = 1; i <= N; i++) {
             if (i % M ==0) {
                 System.out.print(i +" ");
