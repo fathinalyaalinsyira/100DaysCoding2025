@@ -14,7 +14,14 @@ public class Main65 {
         long faktorial = 1;
         for (int i = 1; i <= N; i++) {
             faktorial *= i;
+            System.out.print(i);
+            if (i < N) {
+                System.out.print(" x ");
+            } else {
+                System.out.print(" = ");
+            }
         }
+        System.out.println(faktorial);
         System.out.println("faktorial dari " + N + " adalah: " + faktorial);
     }
 }
