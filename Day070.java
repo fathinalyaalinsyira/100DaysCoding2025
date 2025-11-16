@@ -14,6 +14,7 @@ public class Main70 {
         System.out.print("Masukkan panjang: ");
         int panjang = p.nextInt();
 
+        //jika memasukkan inputan yang sama maka hasilnya akan kosong, karna itu tidak akan membentuk persegi panjang
         for (int i = 0; i < panjang; i++) {
             for (int j = 0; j < lebar; j++) {
                 if (lebar != panjang) {
