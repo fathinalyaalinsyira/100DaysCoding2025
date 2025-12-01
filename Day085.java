@@ -1,21 +1,21 @@
 package Day85;
 
-import java.util.Scanner;
-
 public class Main85 {
 
     public static void main(String[] args) {
-        Scanner p = new Scanner(System.in);
         //menentukan angka maksimal array
 
-        System.out.print("batas array: ");
-        int ab = p.nextInt();
+        int[] a = {16, 6, 66, 61, 166, 11};
 
-        int[] a = new int[ab];
+        int x = a[0];
 
-        for (int i = 0; i < a.length; i++) {
-            System.out.println(i);
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] > x) {
+                x = a[i];
+            }
         }
+
+        System.out.println("angka maksimal dalam array = " + x);
     }
 
 }
