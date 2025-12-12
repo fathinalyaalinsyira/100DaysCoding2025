@@ -23,7 +23,7 @@ public class Main96 {
         return 1 * 2;
     }
 
-    public static int pembagian() {
-        return 1 / 2;
+    public static double pembagian() {
+        return 1.0 / 2.0;
     }
 }
